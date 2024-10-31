@@ -6,7 +6,7 @@ import "./globals.css";
 const font = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "KABS Digital",
+  title: "KABS Digital Solutions",
   description: "Grow your business with KABS, a design & development studio.",
   openGraph: {
     images: [
