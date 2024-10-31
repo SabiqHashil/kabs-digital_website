@@ -30,7 +30,7 @@ const Footer = () => {
         </div>
 
         <div className="flex items-center space-x-4">
-          
+        <h2 className="text-xl font-semibold text-gray-700">Follow Us:</h2>
           <FloatingDockDemo />
         </div>
 
