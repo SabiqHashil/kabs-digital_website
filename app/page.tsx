@@ -16,7 +16,6 @@ import { Link as ScrollLink, Element } from "react-scroll";
 import { IconStarFilled } from "@tabler/icons-react";
 import { ShootingStarsAndStarsBackgroundDemo } from "@/components/demos/shooting-stars-demo";
 import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen";
-import testimonials from "./testimonialsData";
 import Footer from "@/components/footer";
 import InfiniteMovingCardsDemo from "@/components/demos/moving-testimonials";
 
