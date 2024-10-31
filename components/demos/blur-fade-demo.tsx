@@ -5,30 +5,28 @@ import Link from "next/link";
 const works = [
   {
     background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
-    title: "JAES Company SDN BHD",
-    link: "https://www.rubbishbrothers.com",
+    imageUrl: "/images/jaes_ui.png",
+    title: "JAES Company SDN BHD | Website",
+    link: "https://www.jaes-company.com/",
+  },
+  {
+    background: "bg-gray-200",
+    imageUrl: "/images/leadup_ui.png",
+    title: "LEADUP Make Your Dream | CRM Application",
+    link: "/#",
   },
   {
     background: "bg-gray-200",
     imageUrl: "/images/business.webp",
-    title: "FAS PNR Sea Foods",
-    link: "https://www.atlasmassage.ca",
+    title: "FAS PNR Sea Foods | Mobile App",
+    link: "/#",
   },
   {
     background: "bg-gray-200",
     imageUrl: "/images/business.webp",
-    title: "Orders & Delivery",
-    link: "https://www.canadiansecuritysolutions.com",
+    title: "Orders and Delivery | Mobile App",
+    link: "/#",
   },
-  {
-    background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
-    title: "LEADUP Make Your Dream",
-    link: "https://www.flight9.art",
-  },
-
-
 ];
 
 export function BlurFadeDemo() {
@@ -47,10 +45,7 @@ export function BlurFadeDemo() {
                 height={10000}
                 width={10000}
                 className="
-                h-5/6 w-full object-cover rounded-lg"
-
-
-
+                h-5/6 w-full object-cover opacity-90 rounded-lg"
                 src={imageUrl}
                 alt={`Random stock image ${idx + 1}`}
               />

@@ -266,12 +266,20 @@ export default function Home() {
                 direction="left"
                 items={[
                   {
-                    logo: "/logo/logo.webp",
-                    name: "Logo",
+                    logo: "/logo/leadup_logo.png",
+                    name: "LEADUP Logo",
                   },
                   {
-                    logo: "/logo/logo.webp",
-                    name: "Logo",
+                    logo: "/logo/fas_pnr_logo.png",
+                    name: "FAS PNR Logo",
+                  },
+                  {
+                    logo: "/logo/jaes_logo.png",
+                    name: "JAES Logo",
+                  },
+                  {
+                    logo: "/logo/orders_and_delivery_logo.png",
+                    name: "Orders and Delivery Logo",
                   },
                 ]}
               />
