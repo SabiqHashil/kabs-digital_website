@@ -39,15 +39,6 @@ export function FloatingDockDemo() {
             ),
             href: "#",
         },
-        {
-            title: "X",
-            icon: (
-                <IconBrandX className="h-full w-full text-neutral-500 dark:text-neutral-300" />
-            ),
-            href: "#",
-        },
-
-
     ];
     return (
         <div className="flex items-center space-x-4 justify-center">
