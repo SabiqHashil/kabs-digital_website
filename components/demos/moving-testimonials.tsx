@@ -23,7 +23,7 @@ const testimonials = [
         quote:
             "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
         name: "Hakeem Kambath",
-        title: "LEADUP CRM Web Application",
+        title: "LEADUP Loan Process CRM Web Application",
     },
     {
         quote:
@@ -40,12 +40,6 @@ const testimonials = [
         quote:
             "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
         name: "Client",
-        title: "JAES SDN BHD Website",
-    },
-    {
-        quote:
-            "Call me Ishmael. Some years ago—never mind how long precisely—having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world.",
-        name: "Herman Melville",
-        title: "Moby-Dick",
+        title: "JAES COMPANY SDN BHD Website",
     },
 ];

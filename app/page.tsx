@@ -359,7 +359,7 @@ export default function Home() {
         </main>
       </Element>
 
-      <section className="md:px-0 mx-6 my-4 md:mx-auto">
+      <section className="md:px-0 mx-6 md:mx-auto">
         <h1 className="text-3xl md:text-5xl font-medium flex items-center gap-x-2 justify-center text-center">
           Hear from Our <span className="text-blue-500">Clients</span>
         </h1>
