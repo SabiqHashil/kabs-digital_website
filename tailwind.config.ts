@@ -1,13 +1,18 @@
-import type { Config } from "tailwindcss"
+import type { Config } from "tailwindcss";
+
+const colors = require("tailwindcss/colors");
+const {
+  default: flattenColorPalette,
+} = require("tailwindcss/lib/util/flattenColorPalette");
 
 const config = {
   darkMode: ["class"],
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}',
-	],
+    "./pages/**/*.{ts,tsx}",
+    "./components/**/*.{ts,tsx}",
+    "./app/**/*.{ts,tsx}",
+    "./src/**/*.{ts,tsx}",
+  ],
   prefix: "",
   theme: {
     container: {
@@ -67,39 +72,51 @@ const config = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: "0" },
         },
-        'scroll': {
+        scroll: {
           to: {
             transform: "translate(calc(-50% - 0.5rem))",
           },
         },
-        'shimmer': {
+        shimmer: {
           "0%, 90%, 100%": {
-            "background-position": "calc(-100% - var(--shimmer-width, 200px)) 0",
+            "background-position":
+              "calc(-100% - var(--shimmer-width, 200px)) 0",
           },
           "30%, 60%": {
             "background-position": "calc(100% + var(--shimmer-width, 200px)) 0",
           },
         },
-        'shine' : {
+        shine: {
           from: {
-            "backgroundPosition": "0 0"
+            backgroundPosition: "0 0",
           },
           to: {
-            "backgroundPosition": "-200% 0"
-          }
+            backgroundPosition: "-200% 0",
+          },
         },
-
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        'scroll': 'scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite',
-        'shimmer' : 'shimmer 8s infinite',
-        'shine' : 'shine 2s  linear infinite',
+        scroll:
+          "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+        shimmer: "shimmer 8s infinite",
+        shine: "shine 2s  linear infinite",
       },
     },
   },
   plugins: [require("tailwindcss-animate")],
-} satisfies Config
+} satisfies Config;
 
-export default config
+function addVariablesForColors({ addBase, theme }: any) {
+  let allColors = flattenColorPalette(theme("colors"));
+  let newVars = Object.fromEntries(
+    Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
+  );
+
+  addBase({
+    ":root": newVars,
+  });
+}
+
+export default config;

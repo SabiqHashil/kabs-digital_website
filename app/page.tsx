@@ -18,6 +18,7 @@ import { ShootingStarsAndStarsBackgroundDemo } from "@/components/demos/shooting
 import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen";
 import testimonials from "./testimonialsData";
 import Footer from "@/components/footer";
+import InfiniteMovingCardsDemo from "@/components/demos/moving-testimonials";
 
 
 const services = [
@@ -358,6 +359,14 @@ export default function Home() {
         </main>
       </Element>
 
+      <section className="md:px-0 mx-6 my-4 md:mx-auto">
+        <h1 className="text-3xl md:text-5xl font-medium flex items-center gap-x-2 justify-center text-center">
+          Hear from Our <span className="text-blue-500">Clients</span>
+        </h1>
+        <InfiniteMovingCardsDemo />
+
+      </section>
+
       <section>
         <main className="md:flex items-center justify-center space-y-6 md:space-y-0 md:gap-x-20 xl:w-4/5 2xl:w-[68%] mx-auto px-6 md:px-0">
           <Image
@@ -369,7 +378,7 @@ export default function Home() {
           />
           <div className="flex flex-col gap-y-5 md:w-1/2">
             <h1 className="text-lg md:text-2xl ">
-              &quot;We&apos;ve been working with Bird for over 2 years and
+              &quot;We&apos;ve been working with KABS for over 2 years and
               they&apos;ve been amazing to work with. They&apos;ve helped us
               grow our business and we couldn&apos;t be happier with the
               results. &quot;
