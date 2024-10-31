@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -19,7 +18,7 @@ const Footer = () => {
           </h1>
           <p className="text-left text-xl text-gray-500">
             <a href="tel:+919746854778" className="text-blue-600 hover:underline">
-              +91 97468 54778
+              +91 97468 
             </a>
           </p>
           <p className="text-left text-xl text-gray-500">
@@ -29,17 +28,14 @@ const Footer = () => {
           </p>
         </div>
 
-        <div className="flex flex-row">
-          Social Media Icons
+        <div className="flex items-center space-x-4">
+        <h2 className="text-xl font-semibold text-gray-700">Follow Us:</h2>
         </div>
 
       </div>
 
-      <div className="flex md:justify-center gap-x-4 mt-10">
-        © {currentYear} KABS Digital. All Rights Reserved.
-        <Link href="/" className="text-blue-500">
-          Privacy Policy
-        </Link>
+      <div className="flex md:justify-center gap-x-4 mt-10 text-center text-gray-600">
+      © {currentYear} KABS Digital Soltions. All Rights Reserved.
       </div>
     </footer>
   );

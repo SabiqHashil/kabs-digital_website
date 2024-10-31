@@ -18,28 +18,30 @@ const InfiniteMovingCardsDemo = () => {
 
 export default InfiniteMovingCardsDemo;
 
+
 const testimonials = [
     {
         quote:
-            "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity, it was the season of Light, it was the season of Darkness, it was the spring of hope, it was the winter of despair.",
+            "LEADUP helped us transition smoothly into a virtual workspace. The team was attentive and delivered exactly what we needed for our project.",
         name: "Hakeem Kambath",
-        title: "LEADUP Loan Process CRM Web Application",
+        title: "LEADUP Make Your Dream",
     },
     {
         quote:
-            "To be, or not to be, that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous fortune, Or to take Arms against a Sea of troubles, And by opposing end them: to die, to sleep.",
+            "The project with FAS PNR Sea Foods was a success! Their collaboration made it easy to streamline our operations, and we couldn't be happier.",
         name: "Farish",
-        title: "FAS PNR Sea Foods Mobile App",
-    },
-    {
-        quote: "All that we see or seem is but a dream within a dream.",
-        name: "Syed Jabi",
-        title: "Orders and Delivery Mobile App",
+        title: "FAS PNR Sea Foods",
     },
     {
         quote:
-            "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
+            "Orders and Delivery transformed how we manage our logistics. Their innovative solutions made our project a breeze to execute.",
+        name: "Sayyid Jabi",
+        title: "Orders and Delivery",
+    },
+    {
+        quote:
+            "Our partnership with JAES COMPANY SDN BHD resulted in outstanding outcomes. Their commitment to excellence made a significant difference in our project.",
         name: "Client",
-        title: "JAES COMPANY SDN BHD Website",
+        title: "JAES COMPANY SDN BHD",
     },
 ];
