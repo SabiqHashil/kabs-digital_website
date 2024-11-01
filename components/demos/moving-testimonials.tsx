@@ -34,6 +34,12 @@ const testimonials = [
     },
     {
         quote:
+            "Exceptional service and design! The team perfectly captured our brand with creative posters and efficient forms. Highly recommended for professional and reliable design work.",
+        name: "Sayyid Safeer, Family Business",
+        title: "BATAL AL JAZEERA TRADE ESTABLISHMENT.",
+    },
+    {
+        quote:
             "Orders and Delivery transformed how we manage our logistics. Their innovative solutions made our project a breeze to execute.",
         name: "Sayyid Jabi",
         title: "Orders and Delivery",
