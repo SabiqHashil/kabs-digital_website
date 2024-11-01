@@ -23,13 +23,13 @@ const testimonials = [
     {
         quote:
             "LEADUP helped us transition smoothly into a virtual workspace. The team was attentive and delivered exactly what we needed for our project.",
-        name: "Hakeem Kambath",
+        name: "Abdul Hakeem, CEO",
         title: "LEADUP Make Your Dream",
     },
     {
         quote:
             "The project with FAS PNR Sea Foods was a success! Their collaboration made it easy to streamline our operations, and we couldn't be happier.",
-        name: "Farish",
+        name: "Faisal Babu, CEO",
         title: "FAS PNR Sea Foods",
     },
     {
@@ -41,7 +41,7 @@ const testimonials = [
     {
         quote:
             "Our partnership with JAES COMPANY SDN BHD resulted in outstanding outcomes. Their commitment to excellence made a significant difference in our project.",
-        name: "Client",
+        name: "Jaishan, CEO",
         title: "JAES COMPANY SDN BHD",
     },
 ];
