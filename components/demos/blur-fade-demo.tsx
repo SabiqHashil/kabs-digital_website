@@ -12,7 +12,7 @@ const works = [
   {
     background: "bg-gray-200",
     imageUrl: "/images/leadup_ui.png",
-    title: "LEADUP Make Your Dream | CRM Application",
+    title: "LEADUP | CRM Application",
     link: "/#",
   },
   {
