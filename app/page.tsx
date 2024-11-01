@@ -266,11 +266,15 @@ export default function Home() {
                 items={[
                   {
                     logo: "/logo/leadup_logo.png",
-                    name: "LEADUP Logo",
+                    name: "LEADUP Make Your Dream Logo",
                   },
                   {
                     logo: "/logo/fas_pnr_logo.png",
-                    name: "FAS PNR Logo",
+                    name: "FAS PNR Sea Foods Logo",
+                  },
+                  {
+                    logo: "/logo/batal_logo.png",
+                    name: "BATAL AL JAZEERA TRD. EST Logo",
                   },
                   {
                     logo: "/logo/jaes_logo.png",
@@ -280,6 +284,7 @@ export default function Home() {
                     logo: "/logo/orders_and_delivery_logo.png",
                     name: "Orders and Delivery Logo",
                   },
+                  
                 ]}
               />
             </section>
