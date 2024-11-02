@@ -1,3 +1,6 @@
+
+"use client";
+
 import Image from "next/image";
 import { FloatingDockDemo } from "./demos/desktop-social-icon";
 
