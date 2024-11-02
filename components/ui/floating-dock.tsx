@@ -42,7 +42,7 @@ const FloatingDockMobile = ({
   className?: string;
 }) => {
   return (
-    <div className={cn("relative bottom-12 inset-x-0", className)}>
+    <div className={cn("relative bottom-12 mt-0 inset-x-0", className)}>
       <motion.div
         layoutId="nav"
         className="flex flex-row justify-center mb-2"
@@ -65,7 +65,7 @@ const FloatingDockMobile = ({
               href={item.href}
               className="h-10 w-10 rounded-full bg-gray-50 dark:bg-neutral-900 flex items-center justify-center mx-1"
             >
-              <div className="h-4 w-4">{item.icon}</div>
+              <div className="h-8 w-8">{item.icon}</div>
             </Link>
           </motion.div>
         ))}
