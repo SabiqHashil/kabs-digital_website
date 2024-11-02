@@ -286,6 +286,10 @@ export default function Home() {
                     name: "JAES Logo",
                   },
                   {
+                    logo: "/logo/asas_logo.png",
+                    name: "ASAS Laptop Service Logo",
+                  },
+                  {
                     logo: "/logo/orders_and_delivery_logo.png",
                     name: "Orders and Delivery Logo",
                   },
