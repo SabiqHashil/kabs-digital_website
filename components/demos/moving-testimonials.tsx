@@ -26,10 +26,10 @@ const testimonials = [
         "title": "FAS PNR Sea Foods"
     },
     {
-        quote:
+        "quote":
             "Exceptional service and design! The team perfectly captured our brand with creative posters and efficient forms. Highly recommended for professional and reliable design work.",
-        name: "Sayyid Safeer, Director",
-        title: "BATAL AL JAZEERA TRADE ESTABLISHMENT.",
+        "name": "Sayyid Safeer, Director",
+        "title": "BATAL AL JAZEERA TRADE ESTABLISHMENT.",
     },
     {
         "quote": "This mobile app has revolutionized how we handle orders and deliveries in our fruits and vegetables business. It’s made customer order management and tracking supply status effortless, boosting our efficiency tremendously.",
