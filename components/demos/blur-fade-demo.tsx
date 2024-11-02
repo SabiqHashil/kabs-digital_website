@@ -5,27 +5,39 @@ import Link from "next/link";
 const works = [
   {
     background: "bg-gray-200",
+    imageUrl: "/images/leadup_ui.png",
+    title: "LEADUP | CRM Application",
+    link: "",
+  },
+  {
+    background: "bg-gray-200",
     imageUrl: "/images/jaes_ui.png",
     title: "JAES Company SDN BHD | Website",
     link: "https://www.jaes-company.com/",
   },
   {
     background: "bg-gray-200",
-    imageUrl: "/images/leadup_ui.png",
-    title: "LEADUP | CRM Application",
-    link: "/#",
+    imageUrl: "/images/asas_web_ui.png",
+    title: "ASAS Laptop Services | CRM Application",
+    link: "",
   },
   {
     background: "bg-gray-200",
     imageUrl: "/images/business.webp",
     title: "FAS PNR Sea Foods | Mobile App",
-    link: "/#",
+    link: "",
+  },
+  {
+    background: "bg-gray-200",
+    imageUrl: "/images/business.webp",
+    title: "ASAS Laptop Services | Mobile App",
+    link: "",
   },
   {
     background: "bg-gray-200",
     imageUrl: "/images/business.webp",
     title: "Orders and Delivery | Mobile App",
-    link: "/#",
+    link: "",
   },
 ];
 
