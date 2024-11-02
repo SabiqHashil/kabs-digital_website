@@ -42,7 +42,7 @@ const FloatingDockMobile = ({
   className?: string;
 }) => {
   return (
-    <div className={cn("relative bottom-12 mt-0 inset-x-0", className)}>
+    <div className={cn("relative bottom-12 md:hidden lg:hidden xl:hidden 2xl:hidden mt-0 inset-x-0", className)}>
       <motion.div
         layoutId="nav"
         className="flex flex-row justify-center mb-2"
