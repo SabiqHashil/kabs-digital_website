@@ -21,10 +21,9 @@ export default InfiniteMovingCardsDemo;
 
 const testimonials = [
     {
-        quote:
-            "The project with FAS PNR Sea Foods was a success! Their collaboration made it easy to streamline our operations, and we couldn't be happier.",
-        name: "Faisal Babu, CEO",
-        title: "FAS PNR Sea Foods",
+        "quote": "The mobile app brought remarkable improvements to our fisheries management! It simplified driver coordination and box calculations across markets, making our operations smoother and more efficient.",
+        "name": "Faisal Babu, CEO",
+        "title": "FAS PNR Sea Foods"
     },
     {
         quote:
@@ -33,15 +32,18 @@ const testimonials = [
         title: "BATAL AL JAZEERA TRADE ESTABLISHMENT.",
     },
     {
-        quote:
-            "Orders and Delivery transformed how we manage our logistics. Their innovative solutions made our project a breeze to execute.",
-        name: "Sayyid Jabi",
-        title: "Orders and Delivery",
+        "quote": "This mobile app has revolutionized how we handle orders and deliveries in our fruits and vegetables business. It’s made customer order management and tracking supply status effortless, boosting our efficiency tremendously.",
+        "name": "Sayyid Jabi",
+        "title": "Orders and Delivery"
     },
     {
-        quote:
-            "Our partnership with JAES COMPANY SDN BHD resulted in outstanding outcomes. Their commitment to excellence made a significant difference in our project.",
-        name: "Jaishan, CEO",
-        title: "JAES COMPANY SDN BHD",
+        "quote": "The team delivered outstanding web and mobile applications for us! Their expertise and dedication made the process smooth, and we’re extremely satisfied with the results.",
+        "name": "Hussain",
+        "title": "ASAS Laptop Service"
     },
+    {
+        "quote": "The website has been invaluable for our sales and service operations in AC, refrigeration, and HVAC. It has streamlined our customer interactions and elevated our online presence, making a real difference to our business.",
+        "name": "Jaishan, CEO",
+        "title": "JAES COMPANY SDN BHD"
+    }
 ];
