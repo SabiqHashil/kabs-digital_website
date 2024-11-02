@@ -22,12 +22,6 @@ export default InfiniteMovingCardsDemo;
 const testimonials = [
     {
         quote:
-            "LEADUP helped us transition smoothly into a virtual workspace. The team was attentive and delivered exactly what we needed for our project.",
-        name: "Abdul Hakeem, CEO",
-        title: "LEADUP Make Your Dream",
-    },
-    {
-        quote:
             "The project with FAS PNR Sea Foods was a success! Their collaboration made it easy to streamline our operations, and we couldn't be happier.",
         name: "Faisal Babu, CEO",
         title: "FAS PNR Sea Foods",
@@ -35,7 +29,7 @@ const testimonials = [
     {
         quote:
             "Exceptional service and design! The team perfectly captured our brand with creative posters and efficient forms. Highly recommended for professional and reliable design work.",
-        name: "Sayyid Safeer, Family Business",
+        name: "Sayyid Safeer, Director",
         title: "BATAL AL JAZEERA TRADE ESTABLISHMENT.",
     },
     {

@@ -18,6 +18,7 @@ import { ShootingStarsAndStarsBackgroundDemo } from "@/components/demos/shooting
 import LetsMakeThingsHappenSection from "@/components/ui/lets-make-things-happen";
 import Footer from "@/components/footer";
 import InfiniteMovingCardsDemo from "@/components/demos/moving-testimonials";
+import Testimonial from "@/components/demos/main-client";
 
 
 const services = [
@@ -60,6 +61,10 @@ const services = [
 ];
 
 export default function Home() {
+  const startYear = 2022; // Set your starting year here
+  const currentYear = new Date().getFullYear();
+  const yearsCount = currentYear - startYear;
+
   return (
     <div
       className="overflow-clip 
@@ -284,7 +289,7 @@ export default function Home() {
                     logo: "/logo/orders_and_delivery_logo.png",
                     name: "Orders and Delivery Logo",
                   },
-                  
+
                 ]}
               />
             </section>
@@ -380,65 +385,7 @@ export default function Home() {
       </section>
 
       <section>
-        <main className="md:flex items-center justify-center space-y-6 md:space-y-0 md:gap-x-20 xl:w-4/5 2xl:w-[68%] mx-auto px-6 md:px-0">
-          <Image
-            src={"/logo/logo.webp"}
-            width={10000}
-            height={10000}
-            className=" md:w-1/3 rounded-md"
-            alt="image"
-          />
-          <div className="flex flex-col gap-y-5 md:w-1/2">
-            <h1 className="text-lg md:text-2xl ">
-              &quot;We&apos;ve been working with KABS for over 2 years and
-              they&apos;ve been amazing to work with. They&apos;ve helped us
-              grow our business and we couldn&apos;t be happier with the
-              results. &quot;
-            </h1>
-            <div className="flex items-center gap-x-1">
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-            </div>
-
-            <span className="text-xl font-medium">
-              Jordan, Brisson <br />
-              CEO, Atlas Massage
-            </span>
-          </div>
-
-          {/* {testimonials.map((testimonial, index) => (
-        <div
-          key={index}
-          className="flex items-center justify-center space-y-6 md:space-y-0 md:gap-x-20 xl:w-4/5 2xl:w-[68%] mx-auto"
-        >
-          <Image
-            src={testimonial.image}
-            width={10000}
-            height={10000}
-            className="md:w-1/3 rounded-md"
-            alt="testimonial image"
-          />
-          <div className="flex flex-col gap-y-5 md:w-1/2">
-            <h1 className="text-lg md:text-2xl">{`"${testimonial.message}"`}</h1>
-            <div className="flex items-center gap-x-1">
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-              <IconStarFilled className="text-4xl text-yellow-500" />
-            </div>
-            <span className="text-xl font-medium">
-              {testimonial.name} <br />
-              {testimonial.title}
-            </span>
-          </div>
-        </div>
-      ))} */}
-
-        </main>
+        <Testimonial />
       </section>
 
       <Element name="guarentees">
