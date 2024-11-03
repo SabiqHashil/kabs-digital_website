@@ -11,13 +11,16 @@ const Footer = () => {
         {/* Logo and Contact Section */}
         <div className="flex-1">
           <h1 className="text-3xl md:text-5xl font-medium mb-2">
-            <Image
-              src={"/logo/logo.webp"}
-              width={10000}
-              height={10000}
-              className="w-40 sm:w-20 md:w-32"
-              alt="KABS Digital Solutions Logo"
-            />
+            <Link href="/">
+              <Image
+                src={"/logo/logo.webp"}
+                width={10000}
+                height={10000}
+                className="w-40 sm:w-20 md:w-32"
+                alt="KABS Digital Solutions Logo"
+              />
+            </Link>
+
           </h1>
           <p className="text-left text-sm md:text-lg lg:text-xl xl:text-xl text-gray-500">
             <a href="tel:+919847847647" className="text-blue-600 hover:underline">
