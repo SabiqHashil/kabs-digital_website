@@ -33,12 +33,12 @@ const works = [
     title: "ASAS Laptop Services | Mobile App",
     link: "",
   },
-  {
-    background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
-    title: "Orders and Delivery | Mobile App",
-    link: "",
-  },
+  // {
+  //   background: "bg-gray-200",
+  //   imageUrl: "/images/business.webp",
+  //   title: "Orders and Delivery | Mobile App",
+  //   link: "",
+  // },
 ];
 
 export function BlurFadeDemo() {
