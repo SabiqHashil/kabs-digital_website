@@ -16,6 +16,8 @@ export function FloatingDockDemo() {
         <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "https://www.linkedin.com/company/kabs-digital/",
+      target: "_blank",
+      rel: "noopener noreferrer",
     },
 
     {
@@ -24,13 +26,17 @@ export function FloatingDockDemo() {
         <IconBrandInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "https://www.instagram.com/kabsdigital/",
+      target: "_blank",
+      rel: "noopener noreferrer",
     },
     {
-      title: "FB",
+      title: "Facebook",
       icon: (
         <IconBrandFacebook className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "https://www.facebook.com/kabsdigital/",
+      target: "_blank",
+      rel: "noopener noreferrer",
     },
     {
       title: "YouTube",
@@ -38,6 +44,8 @@ export function FloatingDockDemo() {
         <IconBrandYoutube className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
       href: "https://www.youtube.com/@KabsDigital/",
+      target: "_blank",
+      rel: "noopener noreferrer",
     },
   ];
   return (
