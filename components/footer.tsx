@@ -29,7 +29,6 @@ const Footer = () => {
             </a>
           </p>
         </div>
-
         <div className="flex flex-col md:flex-row items-center space-x-0 md:space-x-4 mt-4 md:mt-0">
           <h2 className="text-sm md:text-lg lg:text-xl xl:text-xl font-semibold text-gray-700 md:mb-0">Follow Us:</h2>
           <FloatingDockDemo />

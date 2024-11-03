@@ -23,7 +23,7 @@ const works = [
   },
   {
     background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
+    imageUrl: "/images/fas_ui.png",
     title: "FAS PNR Sea Foods | Mobile App",
     link: "",
   },

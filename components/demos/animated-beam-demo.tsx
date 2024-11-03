@@ -65,7 +65,6 @@ export function AnimatedBeamMultipleOutputDemo({
             />
           </Circle>
           <Circle ref={div4Ref}>
-            {/* <Icons.messenger /> */}
             <Image
               src={"/logo/vscode.png"}
               width={10000}
@@ -81,10 +80,10 @@ export function AnimatedBeamMultipleOutputDemo({
         <div className="flex flex-col justify-center">
           <Circle ref={div6Ref} className="size-16 bg-white">
             <Image
-              src={'/logo/logo.png'}
+              src={'/logo/kabs_logo.png'}
               height={1000}
               width={1000}
-              alt="logo"
+              alt="KABS logo"
             />
           </Circle>
         </div>

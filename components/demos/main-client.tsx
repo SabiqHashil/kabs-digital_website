@@ -5,7 +5,7 @@ import { IconStarFilled } from '@tabler/icons-react';
 const Testimonial = () => {
   // Static testimonial data
   const testimonialData = {
-    imageSrc: "/logo/logo.webp",
+    imageSrc: "/images/main_client.png",
     startYear: 2022,
     text: "they've been amazing to work with. They've helped us grow our business and we couldn't be happier with the results.",
     name: "Abdul Hakeem, CEO",
@@ -23,7 +23,7 @@ const Testimonial = () => {
         src={testimonialData.imageSrc}
         width={10000}
         height={10000}
-        className="md:w-1/3 rounded-md"
+        className="md:w-1/3 rounded-lg"
         alt="image"
       />
       <div className="flex flex-col gap-y-5 md:w-1/2">
