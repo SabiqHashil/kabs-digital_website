@@ -8,8 +8,8 @@ const Testimonial = () => {
     imageSrc: "/logo/logo.webp",
     startYear: 2022,
     text: "they've been amazing to work with. They've helped us grow our business and we couldn't be happier with the results.",
-    name: "Abdul Hakeem",
-    title: "CEO, LEADUP Make Your Dream",
+    name: "Abdul Hakeem, CEO",
+    title: "LEADUP Make Your Dream | India",
     rating: 5, // Number of stars
   };
 
