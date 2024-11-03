@@ -118,15 +118,14 @@ export default function Home() {
             >
               Guarentees
             </ScrollLink>
+
+            <Link href={"/about"} className="hover:text-blue-500">
+              About
+            </Link>
           </div>
         </div>
 
         <div className="flex items-center gap-x-4">
-          {/* <a href="tel:519400200" className="hidden lg:flex">
-            <button className="px-4 py-2 rounded-md flex items-center gap-x-3">
-              (519)-400-200
-            </button>
-          </a> */}
 
           <Link
             href={"/meeting"}
@@ -301,7 +300,7 @@ export default function Home() {
         </div>
       </main>
 
-      <Element name="services">
+      <Element name="services" id="services">
         <div className="md:px-0 mx-6 xl:w-4/5 2xl:w-[68%] md:mx-auto ">
           <h1>
             <WordPullUpDemo />

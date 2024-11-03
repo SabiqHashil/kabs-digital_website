@@ -59,18 +59,14 @@ xl:w-4/5
           <Link href="/" className="hover:text-blue-500">
             Guarentees
           </Link>
+          <Link href="/about" className="hover:text-blue-500">
+            About
+          </Link>
 
         </div>
       </div>
 
-
       <div className="flex items-center gap-x-4">
-        {/* <a href="tel:5193191562" className="hidden xl:flex">
-          <button className="px-4 py-2  rounded-md flex items-center gap-x-3 ">
-            (519)-319-1562
-          </button>
-        </a> */}
-
 
         <Link
           href={"/meeting"}

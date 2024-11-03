@@ -1,13 +1,14 @@
-
 import Image from "next/image";
 import { FloatingDockDemo } from "./demos/desktop-social-icon";
+import Link from "next/link";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
     <footer className="bg-[#fafafa] py-10 px-4 md:px-8 border-t">
-      <div className="flex flex-col md:flex-row justify-between gap-y-3 xl:w-4/5 2xl:w-[68%] mx-auto">
+      <div className="flex flex-col md:flex-row justify-between gap-8 xl:w-4/5 2xl:w-[68%] mx-auto">
+        {/* Logo and Contact Section */}
         <div className="flex-1">
           <h1 className="text-3xl md:text-5xl font-medium mb-2">
             <Image
@@ -29,8 +30,26 @@ const Footer = () => {
             </a>
           </p>
         </div>
-        <div className="flex flex-col md:flex-row items-center space-x-0 md:space-x-4 mt-4 md:mt-0">
-          <h2 className="text-sm md:text-lg lg:text-xl xl:text-xl font-semibold text-gray-700 md:mb-0">Follow Us:</h2>
+
+        <div className="flex-1 mt-10 md:mt-0">
+          <h2 className="text-lg md:text-xl font-semibold text-gray-700 mb-2">Company</h2>
+          <ul className="space-y-1">
+            <li>
+              <Link href="/showcase">
+                <p className="text-sm text-gray-600 hover:underline">Showcase</p>
+              </Link>
+            </li>
+            <li>
+              <Link href="/about">
+                <p className="text-sm text-gray-600 hover:underline">About Us</p>
+              </Link>
+            </li>
+          </ul>
+        </div>
+
+        {/* Follow Us Section */}
+        <div className="flex-1 mt-10 md:mt-0 flex flex-col items-start">
+          <h2 className="text-sm md:text-lg lg:text-xl xl:text-xl font-semibold text-gray-700 mb-2">Follow Us:</h2>
           <FloatingDockDemo />
         </div>
       </div>
