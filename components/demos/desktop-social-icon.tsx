@@ -23,21 +23,21 @@ export function FloatingDockDemo() {
       icon: (
         <IconBrandInstagram className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://www.instagram.com/kabsdigital/",
     },
     {
       title: "FB",
       icon: (
         <IconBrandFacebook className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://www.facebook.com/kabsdigital",
     },
     {
       title: "YouTube",
       icon: (
         <IconBrandYoutube className="h-full w-full text-neutral-500 dark:text-neutral-300" />
       ),
-      href: "#",
+      href: "https://www.youtube.com/@KabsDigital",
     },
   ];
   return (
