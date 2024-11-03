@@ -5,6 +5,7 @@ import Calendly from "./calendly";
 import ShowcaseNavbar from "@/components/showcase-navbar";
 import { PiCheckCircle } from "react-icons/pi";
 import { motion } from "framer-motion";
+import Footer from "@/components/footer";
 
 const checkItemVariants = {
   hidden: { opacity: 0, x: -50 },
@@ -74,6 +75,7 @@ const Meeting = () => {
           <Calendly />
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
