@@ -39,7 +39,7 @@ const Footer = () => {
                 <p className="text-sm text-gray-600 hover:underline">Showcase</p>
               </Link>
             </li>
-   <li>
+            <li>
               <Link href="/meeting">
                 <p className="text-sm text-gray-600 hover:underline">Meeting</p>
               </Link>
@@ -54,7 +54,7 @@ const Footer = () => {
 
         {/* Follow Us Section */}
         <div className="flex-1 mt-10 md:mt-0 flex flex-col items-start">
-          <h2 className="text-sm md:text-lg lg:text-xl xl:text-xl font-semibold text-gray-700 mb-2">Follow Us:</h2>
+          <h2 className="text-lg md:text-xl font-semibold text-gray-700 mb-2">Follow Us:</h2>
           <FloatingDockDemo />
         </div>
       </div>
