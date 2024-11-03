@@ -39,6 +39,11 @@ const Footer = () => {
                 <p className="text-sm text-gray-600 hover:underline">Showcase</p>
               </Link>
             </li>
+   <li>
+              <Link href="/meeting">
+                <p className="text-sm text-gray-600 hover:underline">Meeting</p>
+              </Link>
+            </li>
             <li>
               <Link href="/about">
                 <p className="text-sm text-gray-600 hover:underline">About Us</p>
