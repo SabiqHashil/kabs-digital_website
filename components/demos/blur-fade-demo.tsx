@@ -29,7 +29,7 @@ const works = [
   },
   {
     background: "bg-gray-200",
-    imageUrl: "/images/business.webp",
+    imageUrl: "/images/asas_mobile_ui.png",
     title: "ASAS Laptop Services | Mobile App",
     link: "",
   },
