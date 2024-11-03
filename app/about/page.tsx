@@ -16,7 +16,7 @@ const AboutUs = () => {
     ">
             <ShowcaseNavbar />
             <div className="md:px-0 px-6 xl:w-4/5 2xl:w-[68%] justify-between md:mt-14 md:flex mx-auto  ">
-                <div className="md:w-full mb-14">
+                <div className="md:w-full mb-10">
                     <h1 className="text-4xl font-semibold pt-10">
                         About <span className="text-blue-600 font-bold">Us</span>
                     </h1>
