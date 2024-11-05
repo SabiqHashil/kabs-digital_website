@@ -52,6 +52,11 @@ const Footer = () => {
                 <p className="text-sm text-gray-600 hover:underline">About Us</p>
               </Link>
             </li>
+            {/* <li>
+
+              <p className="text-sm cursor-pointer text-gray-600 hover:underline">Career</p>
+
+            </li> */}
           </ul>
         </div>
 

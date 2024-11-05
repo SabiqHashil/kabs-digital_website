@@ -20,15 +20,16 @@ export default InfiniteMovingCardsDemo;
 
 
 const testimonials = [
-    {
-        "quote": "Remarkable improvements in our fisheries management! The team simplified driver coordination and calculations across markets, making our operations smoother and more efficient.",
-        "name": "Faisal Babu, CEO",
-        "title": "FAS PNR Sea Foods | India"
-    },
+   
     {
         "quote": "Invaluable for our sales and service operations in AC, refrigeration, and HVAC. It has streamlined customer interactions and elevated our online presence, making a real difference to our business.",
         "name": "Jaishan, CEO",
         "title": "JAES COMPANY SDN BHD | Brunei"
+    },
+    {
+        "quote": "Remarkable improvements in our fisheries management! The team simplified driver coordination and calculations across markets, making our operations smoother and more efficient.",
+        "name": "Faisal Babu, CEO",
+        "title": "FAS PNR Sea Foods | India"
     },
     {
         "quote": "Revolutionized how we handle orders and deliveries in our fruits and vegetables business. Customer order management and tracking supply status have become effortless, boosting our efficiency tremendously.",
@@ -36,15 +37,16 @@ const testimonials = [
         "title": "Orders and Delivery | UAE"
     },
     {
-        "quote": "Exceptional service and design! The team perfectly captured our brand with creative posters and efficient forms. Highly recommended for professional and reliable design work.",
-        "name": "Sayyid Safeer, Director",
-        "title": "BATAL AL JAZEERA TRADE ESTABLISHMENT | Saudi Arabia",
-    },
-    {
         "quote": "Outstanding results for our business! The team’s expertise and dedication made the process smooth, and we’re extremely satisfied with the outcome.",
         "name": "Hussain",
         "title": "ASAS Laptop Service | India"
     },
+    {
+        "quote": "Exceptional service and design! The team perfectly captured our brand with creative posters and efficient forms. Highly recommended for professional and reliable design work.",
+        "name": "Sayyid Safeer, Director",
+        "title": "BATAL AL JAZEERA TRADE ESTABLISHMENT | Saudi Arabia",
+    },
+   
   
 ];
 

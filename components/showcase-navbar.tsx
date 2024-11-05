@@ -7,28 +7,21 @@ const ShowcaseNavbar = () => {
       className="
       overflow-hidden
       p-10
-      
-
     rounded-[6px]
     top-5
     sticky
     md:mx-auto
-
     transform 
     z-50
 xl:w-4/5 
 2xl:w-[68%]
-
-   
     bg-white 
     flex 
     items-center
     justify-between py-6
     px-4
     md:px-8
-    mx-6
-    
-    "
+    mx-6"
     >
       <Link href="/">
         <Image

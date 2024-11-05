@@ -268,13 +268,14 @@ export default function Home() {
                 speed="slow"
                 direction="left"
                 items={[
-                  {
-                    logo: "/logo/leadup_logo.png",
-                    name: "LEADUP Make Your Dream Logo",
-                  },
+                 
                   {
                     logo: "/logo/fas_pnr_logo.png",
                     name: "FAS PNR Sea Foods Logo",
+                  },
+                  {
+                    logo: "/logo/leadup_logo.png",
+                    name: "LEADUP Make Your Dream Logo",
                   },
                   {
                     logo: "/logo/batal_logo.png",
