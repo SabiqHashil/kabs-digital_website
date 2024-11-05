@@ -21,11 +21,7 @@ export default InfiniteMovingCardsDemo;
 
 const testimonials = [
    
-    {
-        "quote": "Invaluable for our sales and service operations in AC, refrigeration, and HVAC. It has streamlined customer interactions and elevated our online presence, making a real difference to our business.",
-        "name": "Jaishan, CEO",
-        "title": "JAES COMPANY SDN BHD | Brunei"
-    },
+   
     {
         "quote": "Outstanding results for our business! The team’s expertise and dedication made the process smooth, and we’re extremely satisfied with the outcome.",
         "name": "Hussain",
@@ -45,6 +41,11 @@ const testimonials = [
         "quote": "Revolutionized how we handle orders and deliveries in our fruits and vegetables business. Customer order management and tracking supply status have become effortless, boosting our efficiency tremendously.",
         "name": "Sayyid Jabi",
         "title": "Orders and Delivery | UAE"
+    },
+    {
+        "quote": "Invaluable for our sales and service operations in AC, refrigeration, and HVAC. It has streamlined customer interactions and elevated our online presence, making a real difference to our business.",
+        "name": "Jaishan, CEO",
+        "title": "JAES COMPANY SDN BHD | Brunei"
     },
    
   
