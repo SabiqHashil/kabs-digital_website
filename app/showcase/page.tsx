@@ -23,7 +23,7 @@ const Showcase = () => {
             words="Design & Code That Helps Your Business Grow"
           />
         </div>
-        <p className="md:text-center text-xl md:text-2xl my-6   md:w-4/5 mx-auto text-gray-500">
+        <p className="md:text-center text-xl md:text-2xl my-6 md:w-4/5 mx-auto text-gray-500">
           Have a look at some of our recent projects.
         </p>
 
